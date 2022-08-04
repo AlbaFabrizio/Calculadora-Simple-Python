@@ -1,0 +1,29 @@
+
+"""
+                
+CALCULADORA SIMPLE
+
+"""
+
+
+#Toma de valores a operar
+
+
+a= float(input("Ingrese el primer valor: "))
+b= float(input("Ingrese el segundo valor: "))
+
+
+#Toma de operacion y muestra de resultado
+
+calculo= input("Ingrese +,-,/ o *, segun la operacion que desee realizar: ")
+if calculo == "+":
+    print("Igual:", a+b)
+elif calculo == "-":
+    print("Igual:", -b)
+elif calculo == "*":
+    print("Igual:", a*b)
+elif calculo == "/":
+    print("Igual:", a/b)
+else:
+    print("Ingrese valores validos")
+
