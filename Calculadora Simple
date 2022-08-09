@@ -19,7 +19,7 @@ calculo= input("Ingrese +,-,/ o *, segun la operacion que desee realizar: ")
 if calculo == "+":
     print("Igual:", a+b)
 elif calculo == "-":
-    print("Igual:", -b)
+    print("Igual:", a-b)
 elif calculo == "*":
     print("Igual:", a*b)
 elif calculo == "/":
