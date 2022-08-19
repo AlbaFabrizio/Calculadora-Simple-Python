@@ -24,6 +24,8 @@ elif calculo == "*":
     print("Igual:", a*b)
 elif calculo == "/":
     print("Igual:", a/b)
+
+#validacion de operacion ingresada
 else:
     print("Ingrese valores validos")
 
